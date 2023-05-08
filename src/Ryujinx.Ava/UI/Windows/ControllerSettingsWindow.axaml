@@ -465,6 +465,7 @@
                                         TextAlignment="Center" />
                                 </ToggleButton>
                             </StackPanel>
+                            <Separator Margin="0,8,0,8" Height="1" />
                             <CheckBox IsChecked="{Binding Configuration.LeftInvertStickX}">
                                 <TextBlock Text="{locale:Locale ControllerSettingsLStickInvertXAxis}" />
                             </CheckBox>
@@ -474,7 +475,7 @@
                             <CheckBox IsChecked="{Binding Configuration.LeftRotate90}">
                                 <TextBlock Text="{locale:Locale ControllerSettingsRotate90}" />
                             </CheckBox>
-                            <Separator Margin="0,4,0,4" Height="1" />
+                            <Separator Margin="0,8,0,8" Height="1" />
                             <StackPanel Orientation="Vertical">
                                 <TextBlock Text="{locale:Locale ControllerSettingsLStickDeadzone}" />
                                 <StackPanel
@@ -1060,6 +1061,7 @@
                                         TextAlignment="Center" />
                                 </ToggleButton>
                             </StackPanel>
+                            <Separator Margin="0,8,0,8" Height="1" />
                             <CheckBox IsChecked="{Binding Configuration.RightInvertStickX}">
                                 <TextBlock Text="{locale:Locale ControllerSettingsRStickInvertXAxis}" />
                             </CheckBox>
@@ -1069,7 +1071,7 @@
                             <CheckBox IsChecked="{Binding Configuration.RightRotate90}">
                                 <TextBlock Text="{locale:Locale ControllerSettingsRotate90}" />
                             </CheckBox>
-                            <Separator Margin="0,4,0,4" Height="1" />
+                            <Separator Margin="0,8,0,8" Height="1" />
                             <StackPanel Orientation="Vertical">
                                 <TextBlock Text="{locale:Locale ControllerSettingsRStickDeadzone}" />
                                 <StackPanel
